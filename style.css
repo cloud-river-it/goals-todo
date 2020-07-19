@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background: #494949;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+h2 {
+    color: #252525;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #252525;
+    margin: 15px 0 5px 0;
+}
+#container {
+    width: auto;
+    background: white;
+    height: 100%;
+    position: relative;
+}
+.label {
+    color: #252525;
+    font-weight: bold;
+    width: 100%;
+    float: left;
+}
+#cat {
+    width: 30%;
+    background: white;
+    padding: 5px;
+    margin: 3px 0 15px 2px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+#text, #goaldate {
+    width: 97%;
+    background: white;
+    padding: 5px;
+    margin: 5px 0 15px 2px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+#goaldate {
+    width: 30%;
+    background: white;
+    margin: 5px 0 15px 2px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+.container-top {
+    position: absolute;
+    margin:0 auto 20px 27px;
+    height: auto;
+    float: left;
+    width: 46%;
+}
+.container-bottom {
+    position: absolute;
+    margin-bottom: 20px;
+    height: auto;
+    right: 27px;
+    float: right;
+    width: 46%;
+}
+form {
+    padding: 8px;
+    display: block;
+    border: 1px solid #b1b0b0;
+    border-radius: 2px;
+    width: 97%;
+    background: #f3f3f3;
+    /*background: #2d545e;*/
+}
+button {
+    padding: 8px 40px;
+    color: #f0f0f0;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 0;
+    background: #616c6e;
+    border-radius: 3px;
+    border: 1px solid #3f3f3f;
+    cursor: pointer;
+}
+button:hover {
+    color: #e4e4e4;
+    background: #40646d;
+}
+.todox, .goalx {
+    position: relative;
+    width: 98%;
+    padding: 5px;
+    margin-bottom: 10px ;
+    height: auto;
+    background: #dddddd;
+    color: green;
+    font-weight: bold;
+    border-radius: 2px;   
+}
+
+.todo, .goal {
+    position: relative;
+    width: 98%;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: auto;
+    background: #dddddd;
+    color: red;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.todox p, .goalx p, .goal p, .todo p {
+    margin-top: 5px;
+}
+.ptext {
+    height: auto;
+    width: 75%;
+    font-size: 0.9em;
+}
+#btn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 7px 20px;
+    background: #2d545e;
+}
+#btn:hover {
+    color: #e4e4e4;
+    background: #616c6e;
+}
+.btnEdit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px 20px;
+    background: #2d545e;
+    padding: 8px 40px;
+    color: #f0f0f0;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px 70px 10px 0;
+    border-radius: 3px;
+    border: 1px solid #3f3f3f;
+    cursor: pointer;
+}
